@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+body{
+    background-color: aliceblue;
+}
 
 .noto {
   font-family: "Noto Serif", serif;
@@ -56,6 +59,9 @@ margin-top: 60px;
     color: rgba(0, 0, 0, 0.5);
     
 
+}
+.black{
+    color: black;
 }
 /* banner style */
 .banner{
@@ -139,6 +145,58 @@ color: white;
 width: 270px;
 height: 50px;
 }
+/* 
+flower lover section */
+.lover{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 210px;
+}
+.right-lover{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+   
+}
+/* .left-lover{
+    background: url(../assets/trusted-badge.png);
+    position: relative;
+} */
+ .img-container{
+    position: relative;
+    /* display: inline-block; */
+       width: 540px;
+    height: 597px;
+ }
+ .badge{
+    /* position: absolute; */
+    top: 90px;
+    right: 150px;
+    width: 286px;
+    height: 286px;
+    margin-top: -120px;
+    margin-right: -100px;
+ }
+.left-lover img{
+    /* width: 540px;
+    height: 597px; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+   
+}
+.lover-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+li{
+    font-family: "Inter", sans-serif;
+     color: rgba(0, 0, 0, 0.5);
+     margin-top: 10px;
+     font-size: 22px;
+}
 
 
 /* Responsive style */
@@ -201,7 +259,7 @@ height: 50px;
         width:171px ;
         height:50px ;
     }
- 
+
 }
 
     
