@@ -75,6 +75,9 @@ margin-top: 60px;
     font-weight: bold;
     margin-top: 50px;
 }
+.right-banner img{
+    width: 100%;
+}
 .banner-des{
     font-size: 22px;
      color: rgba(0, 0, 0, 0.5);
@@ -96,6 +99,46 @@ margin-top: 60px;
     width: 888px;
     margin: 0 auto;
 }
+/* card style */
+.card{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+
+  
+}
+.flower-card{
+   
+    height: 484px;
+    width: 270px;
+    text-align: center;
+      align-items: center;
+    justify-content: center;
+   
+   
+
+}
+.card-title{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.card-price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn{
+background-color: rgba(233, 90, 8, 1);
+margin-top: 15px;
+border: none;
+color: white;
+width: 270px;
+height: 50px;
+}
 
 
 /* Responsive style */
@@ -103,6 +146,7 @@ margin-top: 60px;
 
     .banner{
         flex-direction: column-reverse;
+        width: 100%;
     }
     .hide{
         display: none;
@@ -116,6 +160,7 @@ margin-top: 60px;
        
         height: 120px;
     }
+ 
     .planet{
         flex-direction: column;
         margin-top: 400px;
@@ -132,6 +177,29 @@ margin-top: 60px;
         width: 100%;
         margin-left: 40px;
     
+    }
+    .card{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       width: 100%;
+       
+    }
+    .flower-card img{
+        width: 100%;
+    }
+    .flower-card{
+       height: 340px;
+       width: 171px;
+        /* gap: 40px; */
+        margin-top: 20px;
+        margin: 30px;
+        
+       /* margin: 5px;
+       gap: 30px; */
+    }
+    .btn{
+        width:171px ;
+        height:50px ;
     }
  
 }
