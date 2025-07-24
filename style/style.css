@@ -201,6 +201,7 @@ li{
 /* deal style */
 .deal{
     text-align: center;
+    margin-top: 100px;
 
 }
 .deal-title{
@@ -213,62 +214,13 @@ li{
     text-align: center;
     margin: 0 auto;
 }
-/* .planet-img{
 
 
-    background: url(../assets/deal-bloom.png);
-    
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 367px;
-    height: 201px;
-    border-radius: 14px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+
+
  
-}
-.planet-imges{
-        background: rgba(0, 0, 0, 0.4) url(../assets/deal-ana.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 367px;
-    height: 201px;
-    border-radius: 14px;
-       display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    filter: brightness(50%);
-    color: white;
-   
-    
-}
-.right-planet{
-    background: url(../assets/deal-zabo.png);
-     background-size: contain;
-    background-repeat: no-repeat;
-    width: 753px;
-    height: 423px;
-    border-radius: 22px;
-       display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-   
- 
-}
-.planet-type{
-    display: flex;
-    max-width: 1140px;
-    margin: 0 auto;
-    margin-top: 120px;
-    gap: 28px;
-    
-    
-} */
+
+
 .planet-type {
     display: flex;
     max-width: 1140px;
@@ -434,20 +386,20 @@ button{
   color: white;
   font-weight: bold;
   text-align: center;
-  margin: 0 0 50px 0; /* margin top কমিয়ে centred */
+  margin: 0 0 50px 0; 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Container for input and button */
+
 .input {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0;
   width: 100%;
-  max-width: 1020px; /* 830+190 = 1020 max width */
+  max-width: 1020px; /
   box-sizing: border-box;
 }
 
@@ -544,22 +496,66 @@ button {
         width:171px ;
         height:50px ;
     }
-    .deal{
-        flex-direction: column;
-        width: 393px;
-        height: 117px;
-       
-        
-    }
-    .deal-title{
-       margin-left: 80px;
-    }
-    .deal-des{
-        width: 336px;
-        height: 68px;
+
+    .lover {
+    flex-direction: column;
+    margin-top: 80px;
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .img-container {
+    position: relative;
+    width: 100%;
+    height: auto;  /* উচ্চতা স্বয়ংক্রিয় হবে */
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .left-lover img {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-left: 40px;
+  }
+
+  .right-lover {
+    margin-left: 0;
+  }
+
+  .lover-title {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .badge{
+    display: none;
+  }
+
+  li {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 50px;
+    padding-left: 20px;
+    text-align: justify;
+  }
+.deal-title {
+        font-size: 32px;
         margin-left: 70px;
-        text-align: center;
     }
+
+    .deal-des {
+        font-size: 16px;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+
+
 .planet-type{
     flex-direction: column;
     text-align: center;
@@ -622,6 +618,7 @@ button {
     font-size: 14px;
   }
 }
+
  
 
 
