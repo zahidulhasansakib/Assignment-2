@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     background-color: aliceblue;
@@ -159,10 +160,7 @@ flower lover section */
     margin-left: 60px;
    
 }
-/* .left-lover{
-    background: url(../assets/trusted-badge.png);
-    position: relative;
-} */
+
  .img-container{
     position: relative;
     /* display: inline-block; */
@@ -214,12 +212,6 @@ li{
     text-align: center;
     margin: 0 auto;
 }
-
-
-
-
- 
-
 
 .planet-type {
     display: flex;
@@ -317,54 +309,6 @@ li{
 .right-planet a{
     margin-top: -20px;
 }
-/* .search{
-   max-width: 1600px;
-    background: url(../assets/news-letter-bg.png);
-    background-size: cover;
-    height: 533px;
-    margin-top: 120px;
-
-}
-.search-title{
-    text-align: center;
-    margin: 100px;
-         display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    font-size: 50px;
-    color: white;
-    font-weight: bold;
-  
-}
-
-.input {
-    margin: 0 auto;
-    text-align: center;
-  margin-top: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0; 
-
-}
-input{
-      width: 830px;
-  height: 50px;
-  gap: 0px;
-  width: 100%;
-  box-sizing: border-box;
-  
-}
-button{
-    width: 190px;
-    height: 55px;
-    border: none;
-    background-color: rgba(233, 90, 8, 1);
-    color: white;
-} */
-
 
 .search {
   max-width: 1600px;
@@ -377,7 +321,7 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 20px; /* safe padding so content na ছাড়ায় */
+  padding: 0 20px; 
   box-sizing: border-box;
 }
 
@@ -416,15 +360,76 @@ input {
 
 button {
   width: 190px;
-  height: 55px;
+  height: 51px;
   border: none;
   background-color: rgba(233, 90, 8, 1);
   color: white;
   font-size: 16px;
-  border-radius: 0 5px 5px 0;
+  
   cursor: pointer;
 }
 
+footer {
+    width: 100%;
+    background-color: white;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footer-left {
+    flex: 1 1 300px;
+}
+
+.des {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-mid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 40px;
+    flex: 1 1 300px;
+}
+
+.footer-mid a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.footer-mid a:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1 1 150px;
+    justify-content: flex-start;
+}
+
+.footer-right img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-right img:hover {
+    transform: scale(1.4);
+}
 
 
 
@@ -507,7 +512,7 @@ button {
   .img-container {
     position: relative;
     width: 100%;
-    height: auto;  /* উচ্চতা স্বয়ংক্রিয় হবে */
+    height: auto;  
     max-width: 100%;
     margin: 0 auto;
   }
@@ -617,7 +622,59 @@ button {
     height: 40px;
     font-size: 14px;
   }
+  /* .footer{
+    flex-direction: column;
+    width: 100%;
+  
+  }
+  footer{
+  width: 100%;
+    height: 865px;
+  }
+  .footer-mid{
+    margin-right: 0;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  } */
+footer{
+    margin-left: 50px;
+    width: 100%;
+    padding: 0;
+    margin-top: 50px;
 }
+    .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+     width: 100%;
+  
+    
+  }
+
+  .footer-left,
+  .footer-mid,
+  .footer-right {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .footer-mid {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+
+  .footer-right {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+}
+
+
+
 
  
 
