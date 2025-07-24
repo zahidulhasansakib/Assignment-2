@@ -365,6 +365,113 @@ li{
 .right-planet a{
     margin-top: -20px;
 }
+/* .search{
+   max-width: 1600px;
+    background: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    height: 533px;
+    margin-top: 120px;
+
+}
+.search-title{
+    text-align: center;
+    margin: 100px;
+         display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+  
+}
+
+.input {
+    margin: 0 auto;
+    text-align: center;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; 
+
+}
+input{
+      width: 830px;
+  height: 50px;
+  gap: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+button{
+    width: 190px;
+    height: 55px;
+    border: none;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+} */
+
+
+.search {
+  max-width: 1600px;
+  background: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 533px;
+  margin: 120px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; /* safe padding so content na ছাড়ায় */
+  box-sizing: border-box;
+}
+
+.search-title {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 50px 0; /* margin top কমিয়ে centred */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for input and button */
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  max-width: 1020px; /* 830+190 = 1020 max width */
+  box-sizing: border-box;
+}
+
+input {
+
+  width: 830px;
+  height: 50px;
+  padding-left: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 190px;
+  height: 55px;
+  border: none;
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
 
 
 
@@ -413,7 +520,7 @@ li{
        display: grid;
        grid-template-columns: repeat(2,1fr);
        width: 100%;
-      
+      gap: 40px;
        
     }
     .flower-card img{
@@ -422,15 +529,16 @@ li{
     .flower-card{
        height: 340px;
        width: 171px;
-        /* gap: 40px; */
+      
         margin-top: 20px;
         margin: 40px;
         
-       /* margin: 5px;
-       gap: 30px; */
+     
+       
         margin: 0;
         margin-left: 40px;
-        display: block;
+        /* display: block; */
+        gap: 30px;
     }
     .btn{
         width:171px ;
@@ -483,9 +591,48 @@ li{
     margin-top: -50px;
 }
 
+.search {
+    max-width: 100%;
+    width: 100%;
+    height: 276px;
+    max-width: 393px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    margin-left: 50px;
+  }
+
+  .search-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .input {
+    max-width: 100%;
+  }
+
+  input {
+    width: 65%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  button {
+    width: 35%;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+ 
+
+
+
+ 
+
+
+
 
     
 
-}
+
 
     
