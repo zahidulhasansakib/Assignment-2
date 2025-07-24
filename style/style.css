@@ -198,6 +198,179 @@ li{
      font-size: 22px;
 }
 
+/* deal style */
+.deal{
+    text-align: center;
+
+}
+.deal-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.deal-des{
+    font-size: 22px;
+    width: 888px;
+    text-align: center;
+    margin: 0 auto;
+}
+/* .planet-img{
+
+
+    background: url(../assets/deal-bloom.png);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+ 
+}
+.planet-imges{
+        background: rgba(0, 0, 0, 0.4) url(../assets/deal-ana.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    filter: brightness(50%);
+    color: white;
+   
+    
+}
+.right-planet{
+    background: url(../assets/deal-zabo.png);
+     background-size: contain;
+    background-repeat: no-repeat;
+    width: 753px;
+    height: 423px;
+    border-radius: 22px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+ 
+}
+.planet-type{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+    gap: 28px;
+    
+    
+} */
+.planet-type {
+    display: flex;
+    max-width: 1140px;
+    margin: 120px auto 0 auto;
+    gap: 28px;
+}
+
+.left-planet,
+.right-planet {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.planet-img,
+.planet-imges,
+.right-planet {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    gap: 8px;
+}
+
+.planet-img {
+    background-image: url(../assets/deal-bloom.png);
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+   
+}
+
+.planet-imges {
+    background-image: url(../assets/deal-ana.png);
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+}
+
+.right-planet {
+    background-image: url(../assets/deal-zabo.png);
+    width: 753px;
+    height: 423px;
+    border-radius: 22px;
+}
+
+.planet-img::before,
+.planet-imges::before,
+.right-planet::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.planet-img p ,
+.planet-imges p ,
+.right-planet p {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+}
+.right-planet p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.planet-img a,
+.planet-imges a,
+.right-planet a {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    padding: 6px 0;
+    border: none;
+    
+}
+.right-planet a{
+    margin-top: -20px;
+}
+
+
+
+
+
+
 
 /* Responsive style */
 @media screen  and (max-width:576px){
@@ -240,6 +413,7 @@ li{
        display: grid;
        grid-template-columns: repeat(2,1fr);
        width: 100%;
+      
        
     }
     .flower-card img{
@@ -250,15 +424,67 @@ li{
        width: 171px;
         /* gap: 40px; */
         margin-top: 20px;
-        margin: 30px;
+        margin: 40px;
         
        /* margin: 5px;
        gap: 30px; */
+        margin: 0;
+        margin-left: 40px;
+        display: block;
     }
     .btn{
         width:171px ;
         height:50px ;
     }
+    .deal{
+        flex-direction: column;
+        width: 393px;
+        height: 117px;
+       
+        
+    }
+    .deal-title{
+       margin-left: 80px;
+    }
+    .deal-des{
+        width: 336px;
+        height: 68px;
+        margin-left: 70px;
+        text-align: center;
+    }
+.planet-type{
+    flex-direction: column;
+    text-align: center;
+}
+.left-planet,
+    .right-planet {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+.planet-img,
+.planet-imges,
+.right-planet {
+    width: 100%;
+    max-width: 361px;
+    height: 184.5px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 65px;
+}
+.right-planet p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-planet a{
+    margin-top: -50px;
+}
+
+
+    
 
 }
 
