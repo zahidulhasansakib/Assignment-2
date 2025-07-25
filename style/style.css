@@ -229,8 +229,8 @@ li {
 
 .planet-img {
   background-image: url(../assets/deal-bloom.png);
-  width: 363px;
-  height: 200px;
+  width: 360px;
+  height: 198px;
   border-radius: 14px;
 }
 
@@ -298,7 +298,7 @@ li {
   background-size: cover;
   background-position: center;
   height: 533px;
-  margin: 120px auto 0 auto;
+  margin: 140px auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -325,7 +325,7 @@ li {
   gap: 0;
   width: 100%;
   max-width: 1020px;
-  box-sizing: border-box;
+  /box-sizing: border-box;
 }
 
 input {
@@ -334,7 +334,7 @@ input {
   padding-left: 15px;
   font-size: 16px;
   border: none;
-  /* border-radius: 5px 0 0 5px; */
+  border-radius: 5px 0 0 5px;
   box-sizing: border-box;
 }
 
@@ -413,7 +413,6 @@ footer {
 
 /* Responsive style */
 @media screen and (max-width: 576px) {
- 
   .banner {
     flex-direction: column-reverse;
     width: 100%;
