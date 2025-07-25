@@ -229,22 +229,22 @@ li {
 
 .planet-img {
   background-image: url(../assets/deal-bloom.png);
-  width: 367px;
-  height: 201px;
+  width: 363px;
+  height: 200px;
   border-radius: 14px;
 }
 
 .planet-imges {
   background-image: url(../assets/deal-ana.png);
   width: 367px;
-  height: 201px;
+  height: 198px;
   border-radius: 14px;
 }
 
 .right-planet {
   background-image: url(../assets/deal-zabo.png);
   width: 753px;
-  height: 423px;
+  height: 420px;
   border-radius: 22px;
 }
 
@@ -325,7 +325,7 @@ li {
   gap: 0;
   width: 100%;
   max-width: 1020px;
-  /box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input {
@@ -334,7 +334,7 @@ input {
   padding-left: 15px;
   font-size: 16px;
   border: none;
-  border-radius: 5px 0 0 5px;
+  /* border-radius: 5px 0 0 5px; */
   box-sizing: border-box;
 }
 
@@ -413,6 +413,7 @@ footer {
 
 /* Responsive style */
 @media screen and (max-width: 576px) {
+ 
   .banner {
     flex-direction: column-reverse;
     width: 100%;
@@ -566,8 +567,8 @@ footer {
     /* max-width: 693px; */
     /* margin: 60px auto 0 auto; */
     /* padding: 20px; */
-    margin-left: 0px;
-    margin-right: -90px;
+    margin-left: 5px;
+    margin-right: -75px;
     margin-bottom: -50px;
     
   }
